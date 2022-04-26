@@ -1,4 +1,4 @@
-# E-API服务端
+# E-API(服务端)
 [E-API官网](http://e-api.nodebook.top/#/)
 ## 1、初始化
 ```bash
