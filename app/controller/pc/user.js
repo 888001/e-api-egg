@@ -12,8 +12,7 @@ const sendCode = (from, to, code)=>{
         to: to,
         subject: 'E-API-验证码',
         html: `
-            你的验证码为: ${code}, 欢迎使用<a  style="color: red;" href='http://www.baidu.com'>E-API</a>接口管理工具,
-            验证码为系统发送,如非本人操作,请屏蔽
+            你的验证码为: ${code}, 欢迎使用<a  style="color: red;" href='http://e-api.nodebook.top/#/'>E-API</a>接口管理工具,本站基于ServeLess部署(接口免费额度有限)，仅用于功能演示，验证码为系统发送,如非本人操作,请屏蔽
             `
     }
 }
@@ -24,8 +23,7 @@ const sendResult = (from, to, code)=>{
         to: to,
         subject: 'E-API-重置',
         html: `
-            你的重置密码为: ${code}, 请尽快登录后修改密码，欢迎使用<a  style="color: red;" href='http://www.baidu.com'>E-API</a>接口管理工具,
-            验证码为系统发送,如非本人操作,请屏蔽
+            你的重置密码为: ${code}, 请尽快登录后修改密码，欢迎使用<a  style="color: red;" href='http://e-api.nodebook.top/#/'>E-API</a>接口管理工具,本站基于ServeLess部署(接口免费额度有限)，仅用于功能演示，验证码为系统发送,如非本人操作,请屏蔽
             `
     }
 }
