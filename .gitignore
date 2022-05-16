@@ -12,3 +12,6 @@ run/
 *.un~
 typings/
 .nyc_output/
+appveyor.yml
+serverless.yml
+src.map
