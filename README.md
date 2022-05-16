@@ -1,3 +1,5 @@
+# E-API(客户端)
+[E-API官网](http://e-api.nodebook.top/#/)
 ## 部署说明
 修改文件
 #### 邮箱配置
@@ -28,3 +30,5 @@
             }
         },
 ```
+## 三、配套的后端代码：
+https://github.com/cgq001/e-api-electron
